@@ -14,8 +14,8 @@ int main() {
 	tree.insert(&tree.getRoot(), "Мандарин");
 	tree.insert(&tree.getRoot(), "Кто?");
 	tree.insert(&tree.getRoot(), "Абрикос");
-	tree.insert(&tree.getRoot(), "Кудж");
-	tree.insert(&tree.getRoot(), "Ярик");
+	tree.insert(&tree.getRoot(), "Мирэа");
+	tree.insert(&tree.getRoot(), "ОООООООООООО");
 
 	cout << tree.contains(&tree.getRoot(), "Кто?") << endl; // содержит ли слово
 
